@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+    background-color: rgb(237, 213, 213);
+    transition: 0.5s;
+}
+
+.bg_main {
+    background-image: url(Orange.png);
+    height: 80vh;
+    width: 100vw;
+    background-position:bottom ;
+    background-repeat: no-repeat; 
+    overflow-y:hidden;  
+    
+}
+
+.navbar{
+    height: 70px;
+    width: 100vw;
+    background-color: rgba(128, 128, 128, 0.312);
+    border-bottom-right-radius:10px;
+    border-bottom-left-radius:10px;
+}
+
+.navbar>ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    list-style: none;
+    gap: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    font-weight: bolder;
+    color: wheat;
+}
+
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.logo img{
+    height: 250px;
+    border: 2px solid gold;
+    border-radius: 100%;
+    margin-top: 40px;
+    
+}
+
+span h1{
+    color: wheat;
+    font-size: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 5px;
+}
+
+span h3{
+    color: wheat;
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 5px;
+}
+
+span button{
+    color: wheat;
+    background-color: rgb(52, 50, 50);
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 7px;
+    border: 2px solid yellow;
+    border-radius: 7px;
+    margin: 10px 5px;
+    cursor: pointer;
+    transition: 0.5s;
+
+    
+}
+
+.abovespecial{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.Special{
+    height: 100px;
+    width: 50%;
+    background-color: rgb(24, 23, 23);
+    color: wheat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    font-style:italic ;
+    padding: 20px;
+    border-radius: 30px;
+
+    
+
+}
+
+.text{
+    margin-top: 40px;
+    margin-left: 20px;
+    transition: all 3s ease-in ;
+}
+
+
+
+.dishes{
+    display: flex;
+    justify-content: center;
+    margin: 70px;
+    gap: 50px;   
+}
+
+.mandi img{
+    height: 400px;
+    border-radius: 30px;
+}
+
+/* .mandi{
+    margin:  100px;
+} */
+
+.aboutmandi{
+    height: 360px;
+    width: 550px;
+    background-color: black;
+    color: wheat;
+    /* overflow: auto; */
+    border-radius: 30px;
+    text-align: center;
+    padding: 20px;
+    
+    
+}
+
+.aboutmandi>p{
+    font-size: 43px;
+    
+}
+
+span button:hover{
+    border: 2px solid lightblue;
+    font-size: 27px;
+    
+}
+
+
+.lookinto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 50px;
+    /* background-color: black; */
+    color: white;
+}
+
+
+.menu{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(138, 118, 6);
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.lookinto button{
+
+    padding: 5px 20px 5px 20px;
+    font-size: 20px;
+    border: 2px solid rgb(84, 6, 220);
+    border-radius: 7px;
+    color: gold;
+    background-color: black;
+}
+
+.footer{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(38, 37, 37);
+    position: relative;
+    
+}
+.copyright {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* align-items: ; Center items horizontally */
+    
+    height: 100%;
+    width: 25%;
+    
+  }
+  
+  .img-container {
+    order: -1; /* Move this container to the top */
+    /* height: 200px; */
+
+  }
+  .img-container img{
+    height: 250px;
+    border: 2px solid gold;
+    border-radius: 100%;
+  }
+  
+  .socialmedia-container {
+    display: flex;
+    justify-content: left; /* Center items horizontally */
+    margin-top: 10px; /* Adjust margin as needed */
+    cursor: pointer;
+  }
+  
+  .socialmedia {
+    margin: 0 5px;
+     /* Adjust margin between social media icons */
+    height: 50px;
+  }
+
+  .socialmedia1{
+    height: 50px;
+  }
+
+  .feedback{
+    position: absolute;
+    top: 178px;
+    left: 450px;
+    color: wheat;
+    
+  }
+
+  .feedback>p{
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 15px;
+    
+  }
+
+  .feedback>ul>li{
+    font-size: 20px;
+    font-weight: bold;
+    list-style: none;
+    padding: 5px;
+    cursor: pointer;
+    
+  }
+
+  .Branches{
+    position: absolute;
+    top: 178px;
+    left: 700px;
+    color: wheat;
+  }
+
+
+  .Branches>p{
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 15px;
+    
+  }
+
+  .Branches>ul>li{
+    font-size: 20px;
+    font-weight: bold;
+    list-style: none;
+    padding: 5px;
+    cursor: pointer;
+    
+  }
+
+
+  .IncomingProjects{
+    position: absolute;
+    top: 178px;
+    left: 940px;
+    color: wheat;
+  }
+
+
+  .IncomingProjects>p{
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 15px;
+    
+  }
+
+  .IncomingProjects>ul>li{
+    font-size: 20px;
+    font-weight: bold;
+    list-style: none;
+    padding: 5px;
+    cursor: pointer;
+    
+  }
+
+  .navbar>ul>li:hover{
+    color: yellow;
+    cursor: pointer;
+  }
+
+  .navbar:hover{
+    background-color:  rgba(128, 128, 128, 0.558);
+  }
+
+
+
+
+
+
